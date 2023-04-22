@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>搜房网</title>
+</head>
+<body>
+<h1>hello world</h1>
+<a href="http://localhost:8080/login">登陆</a>
+<a href="http://localhost:8080/register">注册</a>
+</body>
+<script>
+    fetch('http://localhost:8080/api/cities').then(response => response.json().then(data => console.log(data)))
+</script>
+</html>

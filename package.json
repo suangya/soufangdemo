@@ -1,0 +1,14 @@
+{
+  "name": "soufangdemo",
+  "version": "1.0.0",
+  "description": "application of soufang",
+  "main": "frontend/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "element-plus": "^2.3.3"
+  }
+}
